@@ -1,10 +1,8 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
 import java.util.ArrayList;
 import java.util.Queue;
-import javax.sound.sampled.Line;
 
 public class Main {
 
@@ -29,7 +27,7 @@ public class Main {
 
         ar = new ArrayList<Integer>[N + 1]();
         visited = new int[N + M + 1];
-        q = new Queue<Integer>();
+        q = new LinkedList<Integer>();
         visited = new boolean[N + M + 1];
 
         for (int i = N + 1; i < N + M + 1; i++) {
@@ -42,9 +40,9 @@ public class Main {
             }
         }
 
-        q.add(1);
+        q.
 
-        while(q.{
+        while(q.
 
         }
     }
